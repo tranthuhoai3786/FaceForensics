@@ -10,7 +10,7 @@ def feature_extractor(file_name):
     return mfccs_scaled_features
 def checkAudio():
     listResult = ['Real', 'Fake']
-    model = load_model('../save_model/audio_classification.h5')
+    model = load_model('../audio_classification.h5')
     filename = './file.mp3'
     predict_feature = feature_extractor(filename)
     predict_feature = predict_feature.reshape(1,-1)

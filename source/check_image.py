@@ -11,9 +11,9 @@ def checkImage():
     haar_path = '../haarcascades/haarcascade_frontalface_alt.xml'
     # img_path = './download.jpg'
     img_path = './cc.jpg'
-    model_path = '../model_CNN_20epochs.keras'
+    # model_path = '../model_CNN_20epochs.keras'
     # model_path = '../test (1).keras'
-    # model_path = '../model_faceforensics_20epochs.keras'
+    model_path = '../model_faceforensics_20epochs.keras'
     face_detector = cv2.CascadeClassifier(haar_path)
     img = cv2.imread(img_path)
     faces = face_detector.detectMultiScale(img, 1.3, 5)

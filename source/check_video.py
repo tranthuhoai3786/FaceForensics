@@ -11,9 +11,9 @@ def checkVideo():
     haar_path = '../haarcascades/haarcascade_frontalface_alt.xml'
     video_path = './video.mp4'
     output_video_path = './video_out.mp4'
-    model_path = '../model_CNN_20epochs.keras'
+    # model_path = '../model_CNN_20epochs.keras'
     # model_path = '../test (1).keras'
-    # model_path = '../model_faceforensics_20epochs.keras'
+    model_path = '../model_faceforensics_20epochs.keras'
 
     cap = cv2.VideoCapture(video_path)
 
