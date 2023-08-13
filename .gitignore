@@ -1,7 +1,7 @@
 audio_classification.h5
 model_faceforensics_10epochs.keras
 model_CNN_20epochs.keras
-model_faceforensics_20epochs.keras
+#model_faceforensics_20epochs.keras
 save_model
 archive
 video_demo_TranThuHoai.mkv
